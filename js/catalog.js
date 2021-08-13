@@ -26,7 +26,7 @@ function populateForm() {
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
   // TODO: Prevent the page from reloading
-  event.preventDefault(); // prevents the page from reloading
+  event.preventDefault(); // this is how we prevent the page from reloading
 
   // Do all the things ...
   addSelectedItemToCart();
@@ -36,12 +36,12 @@ function handleSubmit(event) {
 }
 
 // TODO: Add the selected item and quantity to the cart
-function addSelectedItemToCart() {
+function addSelectedItemToCart() { // this function adds an item to the cart
   // TODO: suss out the item picked from the select list
-  let addItems = document.querySelector("#items");
-  let itemQuantity = document.querySelector("#quantity");
+  let addItems = document.querySelector("#items"); // this selects the html element where the added items will show up
+  let itemQuantity = document.querySelector("#quantity"); // this selects the html element where the quantity will show up
   cart.addItem(addItems.value, parseInt(itemQuantity.value));
-  console.log(addItems.value);
+  console.log(addItems.value); 
   // TODO: get the quantity
   console.log(itemQuantity.value);
 
@@ -49,8 +49,8 @@ function addSelectedItemToCart() {
 }
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
-function updateCounter() {
-  let itemCount = document.querySelector("#itemCount");
+function updateCounter() { 
+  let itemCount = document.querySelector("#itemCount"); // this selects the itemCount html element where we will show how many items are in the cart
   let itemSum = 0;
   for (let i = 0; i < cart.items.length; i++) {
     itemSum += cart.items[i].quantity;
