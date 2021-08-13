@@ -29,6 +29,7 @@ Cart.prototype.removeItem = function (item) {
   this.saveToLocalStorage();
 };
 
+
 const CartItem = function (product, quantity) {
   this.product = product;
   this.quantity = quantity;

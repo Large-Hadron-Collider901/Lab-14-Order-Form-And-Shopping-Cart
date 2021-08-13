@@ -75,7 +75,7 @@ ol {
     margin-top: 30px;
     margin-left: 20px;
     padding-right: 5px;
-    list-style: url('../img/shape.png');
+    list-style: url('/assets/heart.png');
     border-right: #ffffff 10px solid;
 }
 
@@ -120,14 +120,15 @@ input {
 
 table {
     background-color: #fff;
-
+    margin-left: 35px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
 }
 
-/*
-============================================================================================================================
-=========================================================== THIS SECTION FOCUSES ON THE NAV SECTION ========================
-============================================================================================================================
-*/
+th {
+    padding: 10px;
+}
 
 header span {
     width: auto;
@@ -136,6 +137,14 @@ header span {
     color: #FFCC29;
     font-size: 25px;
     text-shadow: #F58634 1px 1px 1px;
+}
+
+#cartContents  {
+    position: absolute;
+    top: 240px;
+    left: 700px;
+    padding: 30px;
+
 }
 
 
@@ -148,14 +157,15 @@ header span {
 a:link {
     width: 60px;
     color: #ffffff;
-    font-family: ;
     font-size: 35px;
     text-decoration: none;
     padding: 20px;
 }
 a:hover {
     color: #ffffff;
-    border-left: khaki 0px solid; 
+    text-shadow: #F58634 3px 3px 3px;
+
+    transition: all 2s ease-in-out; 
 }
 a:visited{
     color: #ffffff;
