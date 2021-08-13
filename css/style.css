@@ -3,107 +3,133 @@ body {
     background-color: #206A5D ;    
     overflow: hidden;       
 }
- 
+
 /*
 ============================================================================================================================
 =========================================================== THIS SECTION IS FOR SEMANTIC ELEMENTS ==========================
 ============================================================================================================================
 */
- 
+
 header {
-    width: max-width;
-    height: 75px;
+    width: 100%;
+    height: 90px;
     background-color: #81B214;
     color: #ffffff;
     font-size: 35px;
+    text-align: right;
 }
- 
+
 nav {
     position: absolute;
-    top: 20px;
+    top: 115px;
     left: 880px;
-    padding-left: 15px;   
-    height: 140px;
+    padding-left: 15px;
+    height: 50px;
     width: 60px;
+    text-align: left;
     border-left: khaki 5px solid;
 }
- 
+
 main {
-    height: 100px;  
-    width: max-width;
+    position: absolute;
+    top: 190px;
+    background-color: #FFCC29 ;
+    height: 560px;
+    width: 100%;
+    border-bottom: teal 15px solid;
 }
- 
+
 section {
- 
+    
 }
- 
+
 footer {
- 
- 
+    position: absolute;
+    top: 743px;
+    font-size: 18px;
+    text-shadow: #FFCC29 1px 2px 1px, #4b7183 1px -1px 1px;   
 }
- 
+
 /*
 ============================================================================================================================
 =========================================================== THIS SECTION IS FOR X ELEMENTS ===================================
 ============================================================================================================================
 */
- 
- 
- 
- 
+
+
+
+
 /*
 ============================================================================================================================
 =========================================================== THIS SECTION IS FOR ELEMENTS ===================================
 ============================================================================================================================
 */
- 
+
 h1 {
-    text-align: inherit;
- 
+    padding: 15px;
+    font-size: 60px;
+    text-align: left;
+    
 }
- 
+
 ul {
-    display: block;
+    display: inline-block;
     width:  300px;
+    list-style: none;
 }
- 
+
 ol {
- 
- 
+    
+
 }
- 
+
 li {
     display: inherit;
     padding: 10px;
 }
- 
+
 legend {
- 
+    height:20x;
+    width: 390px;
+    font-size: 25px;
+    border-bottom: #81B214 4px solid;
+
 }
- 
+
 label {
- 
+
 }
- 
+
 input {
- 
+
 }
- 
+
 fieldset {
- 
- 
+
+
 }
- 
+
 form {
- 
+    
 }
- 
+
+header span {
+    width: auto;
+    height: auto;
+    padding-left: 8px;
+    color: #FFCC29;
+    font-size: 25px;
+    text-shadow: #F58634 1px 1px 1px;
+}
+
 a:link {
-    background-color: #81B214;
+    font-family: ;
+    font-size: 35px;
+    
     text-decoration: none;
-    width: 200px;
+    width: 60px;
 }
- 
+
 a:hover {
-    background-color: #81B214;    
+    border-left: khaki 0px solid; 
 }

@@ -60,9 +60,11 @@ function removeItemFromCart(event) {
   // TODO: Re-draw the cart table
   if (event.target.id === "delete") {
     let currentRow = event.target.parentElement;
-    let currentItemName = currentRow.querySelector("#item-name").textContent;
+    let currentItemName = currentRow.querySelector("#item-name").textContent;  
+    confirm("Are you sure you want to remove the item :\n"+currentItemName+" from your cart?");
+    alert(currentItemName+ " has been removed from your cart!")
     console.log(currentItemName);
-    cart.removeItem(currentItemName);
+    cart.removeItem(currentItemName);  
   }
   clearCart();
   showCart();
