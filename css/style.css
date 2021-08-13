@@ -1,7 +1,11 @@
 /* TODO: Make it awesome */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
 body {
-    background-color: #206A5D ;    
-    overflow: hidden;       
+    background-color: #206A5D ;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', sans-serif;       
 }
 
 /*
@@ -23,25 +27,21 @@ nav {
     position: absolute;
     top: 115px;
     left: 880px;
-    padding-left: 15px;
+    padding-left: 15px; 
     height: 50px;
-    width: 60px;
+    width: 650px;
     text-align: left;
-    border-left: khaki 5px solid;
 }
 
 main {
     position: absolute;
     top: 190px;
-    background-color: #FFCC29 ;
+    background-color: #FFCC29;
     height: 560px;
     width: 100%;
     border-bottom: teal 15px solid;
 }
 
-section {
-    
-}
 
 footer {
     position: absolute;
@@ -49,15 +49,6 @@ footer {
     font-size: 18px;
     text-shadow: #FFCC29 1px 2px 1px, #4b7183 1px -1px 1px;   
 }
-
-/*
-============================================================================================================================
-=========================================================== THIS SECTION IS FOR X ELEMENTS ===================================
-============================================================================================================================
-*/
-
-
-
 
 /*
 ============================================================================================================================
@@ -79,8 +70,13 @@ ul {
 }
 
 ol {
-    
-
+    display: inline-block;
+    width:  650px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 5px;
+    list-style: url('../img/shape.png');
+    border-right: #ffffff 10px solid;
 }
 
 li {
@@ -88,30 +84,50 @@ li {
     padding: 10px;
 }
 
+fieldset {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    width: 50px;
+ }
+ 
+ fieldset span {
+     padding: 5px;
+     font-size: 20px;
+
+ } 
+
 legend {
     height:20x;
-    width: 390px;
+    width: 545px;
+    margin-bottom: 5px;
     font-size: 25px;
     border-bottom: #81B214 4px solid;
-
 }
 
-label {
-
+select {
+  background-color: #ffffff;
+  border: #206A5D 2px solid;
+  border-radius: 20px;
 }
 
 input {
+    background-color: #ffffff;
+    font-size: 15px;
+    border: #206A5D 2px solid;
+    border-radius: 20px;
+}
+
+table {
+    background-color: #fff;
 
 }
 
-fieldset {
-
-
-}
-
-form {
-    
-}
+/*
+============================================================================================================================
+=========================================================== THIS SECTION FOCUSES ON THE NAV SECTION ========================
+============================================================================================================================
+*/
 
 header span {
     width: auto;
@@ -122,14 +138,26 @@ header span {
     text-shadow: #F58634 1px 1px 1px;
 }
 
+
+/*
+============================================================================================================================
+=========================================================== THIS SECTION FOCUSES ON THE NAV SECTION ========================
+============================================================================================================================
+*/
+
 a:link {
+    width: 60px;
+    color: #ffffff;
     font-family: ;
     font-size: 35px;
-    
     text-decoration: none;
-    width: 60px;
+    padding: 20px;
 }
-
 a:hover {
+    color: #ffffff;
     border-left: khaki 0px solid; 
+}
+a:visited{
+    color: #ffffff;
+
 }
