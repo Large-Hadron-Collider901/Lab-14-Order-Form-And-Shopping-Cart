@@ -11,4 +11,5 @@ A few problems we ran into were:
 Some things we practiced in this assignment were:
 * using JSON stringify to convert array data into a string so we can save the data to local storage
 * adding items to an array and removing items
-* 
+* attempted to dabble in transitions and animations
+ 

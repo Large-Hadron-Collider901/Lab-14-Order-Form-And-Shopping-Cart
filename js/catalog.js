@@ -13,7 +13,7 @@ function populateForm() {
   for (let i in Product.allProducts) {
     let productName = Product.allProducts[i].name;
     let option = document.createElement("option"); // created an option element
-    console.log(productName); //debugger
+    console.log(productName); //debugger successful 
     option.value = productName;
     option.textContent = productName;
     selectElement.append(option);
